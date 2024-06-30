@@ -6,7 +6,7 @@ public class CodigosConversiones {
     Map<String, String> currencyCodes = new HashMap();
 
     public CodigosConversiones() {
-        currencyCodes.put("USD", "Dolar estadounidense ");
+        currencyCodes.put("USD", "Dolar estadounidense");
         currencyCodes.put("COP", "Peso Colombiano");
         currencyCodes.put("ARS", "Peso Argentino");
         currencyCodes.put("BOB", "Boliviano boliviano");
@@ -18,4 +18,5 @@ public class CodigosConversiones {
     public Map<String, String> getCurrencyCodes() {
         return currencyCodes;
     }
+
 }
